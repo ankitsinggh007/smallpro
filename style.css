@@ -1,0 +1,42 @@
+.parent{
+    border:1px solid black;
+    height:20vh;
+    width: 10vw;
+    margin:auto ;
+}
+.child{
+    border: 1px solid black;
+    height: 50%;
+    width: 50%;
+    margin:auto;
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    /* background-position:center; */
+    margin-top:25%;
+    background-color:aliceblue
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vw;
+    margin:auto;
+    margin-top: 30vh;
+}
+img{
+    height: 90%;
+    width: 90%;
+}
+button{
+    width: 30%;
+    height: 10%;
+    
+    margin: auto;
+}
+.nightmode{
+    background-color:#202124;
+
+}
+.nightbutton{
+    background-color: orangered;
+}
